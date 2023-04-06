@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
       return               Container(
                 height: 80,
                 width: 80,
-                margin: EdgeInsets.only(left: 20, right: 20),
+                margin: const EdgeInsets.only(left: 20, right: 20),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(17),
                   color: Colors.red,
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
       return               Container(
                 height: 160,
                 width: 160,
-                margin: EdgeInsets.only(left: 10, right: 10),
+                margin: const EdgeInsets.only(left: 10, right: 10),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(17),
                   color: Colors.green,
@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
       return               Container(
                 height: 160,
                 width: double.infinity,
-                margin: EdgeInsets.only(top: 20),
+                margin: const EdgeInsets.only(top: 20),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(17),
                   color: Colors.blue,
@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
               );
     }
     return Scaffold(
-      backgroundColor: Color(0xffF4F4F4),
+      backgroundColor: const Color(0xffF4F4F4),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: SafeArea(
@@ -64,7 +64,7 @@ class HomePage extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 24,
               ),
               SingleChildScrollView(
